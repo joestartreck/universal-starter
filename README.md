@@ -1,13 +1,13 @@
 # universal-starter
 There is added code to reproduce error which occurs  during rendering angular webcomponents.
 
-#To reproduce error 
+# To reproduce error 
 ```
 yarn install
 npm run build:ssr && npm run serve:ssr
 ```
 
-#Result
+# Current Result
 
 ```
 > ng-universal-demo@0.0.0 build:ssr /home/jozef/Desktop/persistent/toDelete/universal-starter
