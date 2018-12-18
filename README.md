@@ -36,21 +36,21 @@ Hash: ae6883b955070fee5414
 Time: 4111ms
 chunk {main} main.js, main.js.map (main) 23.5 kB [entry] [rendered]
 
-> ng-universal-demo@0.0.0 compile:server /home/jozef/Desktop/persistent/toDelete/universal-starter
+> ng-universal-demo@0.0.0 compile:server /sandbox/universal-starter
 > tsc -p server.tsconfig.json
 
 
-> ng-universal-demo@0.0.0 serve:ssr /home/jozef/Desktop/persistent/toDelete/universal-starter
+> ng-universal-demo@0.0.0 serve:ssr /sandbox/universal-starter
 > node dist/server
 
-/home/jozef/Desktop/persistent/toDelete/universal-starter/node_modules/@angular/elements/bundles/elements.umd.js:72
+/sandbox/universal-starter/node_modules/@angular/elements/bundles/elements.umd.js:72
     var elProto = Element.prototype;
                   ^
 
 ReferenceError: Element is not defined
-    at /home/jozef/Desktop/persistent/toDelete/universal-starter/node_modules/@angular/elements/bundles/elements.umd.js:72:19
-    at extendStatics (/home/jozef/Desktop/persistent/toDelete/universal-starter/node_modules/@angular/elements/bundles/elements.umd.js:8:68)
-    at Object.<anonymous> (/home/jozef/Desktop/persistent/toDelete/universal-starter/node_modules/@angular/elements/bundles/elements.umd.js:11:2)
+    at /sandbox/universal-starter/node_modules/@angular/elements/bundles/elements.umd.js:72:19
+    at extendStatics (/sandbox/universal-starter/node_modules/@angular/elements/bundles/elements.umd.js:8:68)
+    at Object.<anonymous> (/sandbox/universal-starter/node_modules/@angular/elements/bundles/elements.umd.js:11:2)
     at Module._compile (internal/modules/cjs/loader.js:688:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
     at Module.load (internal/modules/cjs/loader.js:598:32)
@@ -67,7 +67,7 @@ npm ERR! Failed at the ng-universal-demo@0.0.0 serve:ssr script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/jozef/.npm/_logs/2018-12-18T16_11_10_615Z-debug.log
+npm ERR!     /home/sandbox/.npm/_logs/2018-12-18T16_11_10_615Z-debug.log
 
 
 ```
