@@ -1,15 +1,15 @@
 # universal-starter
 There is added code to reproduce error which occurs  during rendering angular webcomponents.
 
-# To reproduce error 
+# Background context
+We would like to create webcomponents by using @angular/elements and run server side rendering. However now it is not possible due to the  error "ReferenceError: Element is not defined"
+
+
+# How to reproduce error: 
 ```
-yarn install
+yarn install;
 npm run build:ssr && npm run serve:ssr
-```
 
-# Current Result
-
-```
 > ng-universal-demo@0.0.0 build:ssr /home/jozef/Desktop/persistent/toDelete/universal-starter
 > npm run build:client-and-server-bundles && npm run compile:server
 
